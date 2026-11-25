@@ -1,0 +1,6 @@
+{
+  "model": "gemini-3.8-flash-low",
+  "timeoutSeconds": 20,
+  "enableFastPath": true,
+  "auditLog": { "mode": "off" }
+}

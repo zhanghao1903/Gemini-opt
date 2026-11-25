@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": ["allow", "ask", "force_ask", "deny"]
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": ["decision", "reason"],
+  "additionalProperties": false
+}
